@@ -21,7 +21,7 @@
     --border-radius-2: 0.8rem;
     --border-radius-3: 1.2rem;
 
-    --card-padding: 1.8rem 1.2rem;
+    --card-padding: 1.8rem 1rem;
     --padding-1: 1.2rem;
 
     --box-shadow: 0 2rem 3rem var(--color-light);
@@ -60,7 +60,7 @@ body {
 }
 .container{
     display: grid;
-    grid-template-columns: 14rem auto 23rem;
+    grid-template-columns: 14rem auto 18rem;
     width: 96%;
     margin: 0 auto;
     gap: 1.8rem;
@@ -74,7 +74,7 @@ img{
 }
 h1{
     font-weight:800;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 h2{
     font-size: 1.4rem;
@@ -268,12 +268,12 @@ main .insights .sales svg circle{
     stroke-dasharray: 200;
 }
 main .insights .expenses svg circle{
-    stroke-dashoffset: 20;
-    stroke-dasharray: 80;
+    stroke-dashoffset: 230;
+    stroke-dasharray: 220;
 }
 main .insights .income  svg circle{
-    stroke-dashoffset: 35;
-    stroke-dasharray: 110;
+    stroke-dashoffset: -35;
+    stroke-dasharray: 480;
 }
 main .insights .progress .number{
     position: absolute ;
